@@ -1,0 +1,20 @@
+[
+    {
+        "title": "camdistance",
+        "description": "Distance measurement with a digital camera (DSLR or Mobile) using Python and OpenCV",
+        "link": "https://github.com/fergarciadlc/camdistance",
+        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+    },
+    {
+        "title": "pqcvt",
+        "description": "A simple CLI to covert parquet, csv and excel files",
+        "link": "https://github.com/fergarciadlc/pqcvt",
+        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+    },
+    {
+        "title": "ML-LecturesNotes",
+        "description": "Lecture Notes from Andrew Ng - Machine Learning (coursera)",
+        "link": "https://github.com/fergarciadlc/ML-LecturesNotes",
+        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+    }
+]

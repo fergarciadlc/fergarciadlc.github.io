@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Project 1",
+        "description": "Description of Project 1.",
+        "link": "http://project1.com",
+        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+    },
+    {
+        "title": "Project 2",
+        "description": "Description of Project 2.",
+        "link": "http://project2.com",
+        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+    }
+]

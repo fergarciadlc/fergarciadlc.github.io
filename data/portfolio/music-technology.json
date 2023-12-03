@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Orbit",
+        "description": "Simple reverb pluging with JUCE",
+        "link": "https://github.com/fergarciadlc/orbit/",
+        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+    },
+    {
+        "title": "Harmonic Playlist",
+        "description": "Perfect Spotify playlist for karaoke",
+        "link": "https://github.com/fergarciadlc/harmonic-playlist",
+        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+    },
+    {
+        "title": "Mictlan",
+        "description": "One knob audio plugin, tension generator",
+        "link": "https://github.com/fergarciadlc/mictlan",
+        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+    },
+    {
+        "title": "BasicChorus",
+        "description": "Simple chorus pluging with JUCE",
+        "link": "https://github.com/fergarciadlc/BasicChorus",
+        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+    },
+    {
+        "title": "convolver",
+        "description": "Basic convolution plugin with JUCE",
+        "link": "https://github.com/fergarciadlc/convolver",
+        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+    },
+    {
+        "title": "jsfx",
+        "description": "Projects for reaper JSFX programming (REAPER)",
+        "link": "https://github.com/fergarciadlc/jsfx",
+        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+    },
+    {
+        "title": "PIC-piano",
+        "description": "Simple piano project for PIC18F4550",
+        "link": "https://github.com/fergarciadlc/PIC-Piano",
+        "thumbnail": "https://camo.githubusercontent.com/516cf99fe616be0e82ec0eb37e9b42710413cc4678cf003bfff9640502431c1a/68747470733a2f2f692e6962622e636f2f713530337778582f61736d2e706e67"
+    }
+]

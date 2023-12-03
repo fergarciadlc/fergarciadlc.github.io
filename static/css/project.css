@@ -3,25 +3,38 @@
 /* Styles for the project container */
 .project {
     border: 1px solid #ddd;
-    padding: 20px;
+    padding: 5px;
     margin: 1px;
     text-align: center;
     box-sizing: border-box;
+    display: flex; /* Use flexbox to align items vertically */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
 }
+
+/* Styles for the project thumbnail */
+.project img {
+    all: unset;
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    margin-bottom: 1px; /* Add space between thumbnail and title */
+    margin-top: 1%;
+}
+
 
 /* Styles for the project title */
 .project h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
+    margin-top: 0%;
 }
 
 /* Styles for the project description */
 .project p {
-    color: #666;
+    color: #ffffff;
 }
 
 /* Styles for the "View Project" link */
-.project a {
+/* .project a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #3498db;
@@ -29,7 +42,7 @@
     text-decoration: none;
     border-radius: 5px;
     margin-top: 15px;
-}
+} */
 
 /* Responsive styling for the grid layout */
 @media (min-width: 576px) {

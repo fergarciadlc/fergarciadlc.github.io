@@ -1,5 +1,5 @@
 <!-- layouts/shortcodes/project.html -->
-{{ $title := .Get "title" }}
+<!-- {{ $title := .Get "title" }}
 {{ $description := .Get "description" }}
 {{ $link := .Get "link" }}
 
@@ -7,4 +7,72 @@
     <h2>{{ $title }}</h2>
     <p>{{ $description }}</p>
     <a href="{{ $link }}" target="_blank">View Project</a>
-</div>
+</div> -->
+
+
+<!-- layouts/shortcodes/project.html -->
+<!-- {{ with .Get "data" }}
+    {{ $json := getJSON . }}
+    {{ range $index, $project := $json }}
+        <div class="project">
+            <h2>{{ index $project "title" }}</h2>
+            <p>{{ index $project "description" }}</p>
+            <a href="{{ index $project "link" }}" target="_blank">View</a>
+        </div>
+    {{ end }}
+{{ else }}
+    <div class="project">
+        <h2>{{ .Get "title" }}</h2>
+        <p>{{ .Get "description" }}</p>
+        <a href="{{ .Get "link" }}" target="_blank">View</a>
+    </div>
+{{ end }} -->
+
+<!-- layouts/shortcodes/project.html -->
+<!-- {{ with .Get "data" }}
+    {{ $json := getJSON . }}
+    {{ range $index, $project := $json }}
+        <div class="project">
+            {{ with index $project "thumbnail" }}
+                <img src="{{ . }}" alt="Project Thumbnail">
+            {{ end }}
+            <h2><a href="{{ index $project "link" }}" target="_blank">{{ index $project "title" }}</a></h2>
+            <p>{{ index $project "description" }}</p>
+        </div>
+    {{ end }}
+{{ else }}
+    <div class="project">
+        {{ with .Get "thumbnail" }}
+            <img src="{{ . }}" alt="Project Thumbnail">
+        {{ end }}
+        <h2><a href="{{ .Get "link" }}" target="_blank">{{ .Get "title" }}</a></h2>
+        <p>{{ .Get "description" }}</p>
+    </div>
+{{ end }} -->
+
+<!-- layouts/shortcodes/project.html -->
+{{ with .Get "data" }}
+    {{ $json := getJSON . }}
+    {{ range $index, $project := $json }}
+        <div class="project">
+            {{ if index $project "thumbnail" }}
+                <a href="{{ index $project "link" }}" target="_blank">
+                    <img src="{{ index $project "thumbnail" }}" alt="{{ index $project "title" }} Thumbnail">
+                </a>
+            {{ end }}
+            <h2><a href="{{ index $project "link" }}" target="_blank">{{ index $project "title" }}</a></h2>
+            <p>{{ index $project "description" }}</p>
+        </div>
+    {{ end }}
+{{ else }}
+    <div class="project">
+        {{ if .Get "thumbnail" }}
+            <a href="{{ .Get "link" }}" target="_blank">
+                <img src="{{ .Get "thumbnail" }}" alt="{{ .Get "title" }} Thumbnail">
+            </a>
+        {{ end }}
+        <h2><a href="{{ .Get "link" }}" target="_blank">{{ .Get "title" }}</a></h2>
+        <p>{{ .Get "description" }}</p>
+    </div>
+{{ end }}
+

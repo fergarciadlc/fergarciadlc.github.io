@@ -1,0 +1,10 @@
+<!-- layouts/shortcodes/project.html -->
+{{ $title := .Get "title" }}
+{{ $description := .Get "description" }}
+{{ $link := .Get "link" }}
+
+<div class="project">
+    <h2>{{ $title }}</h2>
+    <p>{{ $description }}</p>
+    <a href="{{ $link }}" target="_blank">View Project</a>
+</div>

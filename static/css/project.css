@@ -1,0 +1,68 @@
+/* static/css/project.css */
+
+/* Styles for the project container */
+.project {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 1px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Styles for the project title */
+.project h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Styles for the project description */
+.project p {
+    color: #666;
+}
+
+/* Styles for the "View Project" link */
+.project a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* Responsive styling for the grid layout */
+@media (min-width: 576px) {
+    /* Small screens: One project per row */
+    .project {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    /* Medium screens: Two projects per row */
+    .project {
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media (min-width: 992px) {
+    /* Large screens: Three projects per row */
+    .project {
+        width: 31%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Extra-large screens: Four projects per row */
+    .project {
+        width: 23%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}

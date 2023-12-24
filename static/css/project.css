@@ -23,7 +23,7 @@
 
 /* Styles for the project title */
 .project h2 {
-    font-size: 1.5em;
+    font-size: 1.1em;
     margin-bottom: 10px;
     margin-top: 0%;
 }
@@ -31,6 +31,7 @@
 /* Styles for the project description */
 .project p {
     color: #ffffff;
+    font-size: 0.9em;
 }
 
 /* Styles for the "View Project" link */

@@ -15,9 +15,9 @@ title = "fergarciadlc"
 
 [author]
   name = "Fernando Garcia"
-  image = "profile.png"
-  headline = "I'm only human"
-  bio = "A little bit about you" # appears in author card for each article
+  image = "fer-paris.png"
+  headline = "fergarciadlc"
+  # bio = "A little bit about you" # appears in author card for each article
   links = [
     { email = "mailto:hello@your_domain.com" },
     { link = "https://link-to-some-website.com/" },

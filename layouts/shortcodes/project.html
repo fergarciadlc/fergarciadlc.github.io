@@ -51,27 +51,29 @@
 {{ end }} -->
 
 <!-- layouts/shortcodes/project.html -->
+
+
 {{ with .Get "data" }}
     {{ $json := getJSON . }}
     {{ range $index, $project := $json }}
         <div class="project">
             {{ if index $project "thumbnail" }}
-                <a href="{{ index $project "link" }}" target="_blank">
+                <a href="{{ index $project "link" }}">
                     <img src="{{ index $project "thumbnail" }}" alt="{{ index $project "title" }} Thumbnail">
                 </a>
             {{ end }}
-            <h2><a href="{{ index $project "link" }}" target="_blank">{{ index $project "title" }}</a></h2>
+            <h2><a href="{{ index $project "link" }}">{{ index $project "title" }}</a></h2>
             <p>{{ index $project "description" }}</p>
         </div>
     {{ end }}
 {{ else }}
     <div class="project">
         {{ if .Get "thumbnail" }}
-            <a href="{{ .Get "link" }}" target="_blank">
+            <a href="{{ .Get "link" }}">
                 <img src="{{ .Get "thumbnail" }}" alt="{{ .Get "title" }} Thumbnail">
             </a>
         {{ end }}
-        <h2><a href="{{ .Get "link" }}" target="_blank">{{ .Get "title" }}</a></h2>
+        <h2><a href="{{ .Get "link" }}">{{ .Get "title" }}</a></h2>
         <p>{{ .Get "description" }}</p>
     </div>
 {{ end }}

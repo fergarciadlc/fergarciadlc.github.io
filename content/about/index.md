@@ -14,20 +14,20 @@ showWordCount : false
 showSummary : false
 sharingLinks : false
 showEdit: false
-showViews: true
+showViews: false
 showLikes: false
 showAuthor: true
 layoutBackgroundHeaderSpace: false
 ---
 
-I’ve been building and shipping products across multiple roles and industries, from video streaming applications to API platforms. As a product person, my main goal is to understand my users and their specific needs, in order to deliver a product that truly improves their lives.
+My name is Fernando. I am an engineer, audio developer, musician, entrepreneur, and technology enthusiast. My academic path started with a strong passion for music, working on my guitar skills from a young age.
 
-I’ve worked for several years in big companies and recently decided to trade that for the opportunity of working in smaller teams. Definitely prefer the latter where one can succeed/fail faster, learn faster, and overall have a way bigger impact.
+My interest in music, science, and technology inspired me to earn a Bachelor's in Communications and Electronics Engineering with a focus on Acoustics. In university, I explored DSP, Signals and Systems, Physics, Acoustics and Music Technology. I enhanced my learning with hands-on experiences like self-taught software development, guitar teaching, and involvement in music production projects, activities that I pursued while studying.
 
-Currently, I am focused on improving the lives of developers worldwide. I’m trying to write more about my previous experiences / random thoughts and would love to gather your feedback on it. I also love to dedicate my time to helping and mentoring other PMs or people that want to get into product.
+My passion for music and AI led me to join international initiatives at The Sound Of AI (TSOAI), mentored by Dr. Valerio Velardo. This involvement enhanced my career and deepened my understanding in audio, music, and AI.
 
-<a target="_blank" href="https://mentorcruise.com/mentor/nunocorao/"> <img class="nozoom" src="https://cdn.mentorcruise.com/img/banner/sky-sm.svg" width="240" alt="MentorCruise"> </a>
+At Ear Candy Technologies (ECT), a Mexican startup, I'm an audio developer and DSP engineer, focusing on creating new audio plugins and developing audio processing algorithms. Utilizing my data engineering background, I also manage our plugins' cloud infrastructure, sharpening my technical and creative skills.
 
-Recently I’ve also joined AWS Loft to help Startups and their founders with their product strategy.
+You can check my project on my portfolio, feel free to reach out! :)
 
-Feel free to reach out.
+<!-- <a target="_blank" href="https://mentorcruise.com/mentor/nunocorao/"> <img class="nozoom" src="https://cdn.mentorcruise.com/img/banner/sky-sm.svg" width="240" alt="MentorCruise"> </a> -->

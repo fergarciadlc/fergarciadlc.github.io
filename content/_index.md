@@ -2,8 +2,9 @@
 title: "Fernando Garcia"
 description: "Homepage"
 ---
+Hi There!
 
-software developer, data engineer, audio developer, guitar player, scientific communicator, and music-audio-ai enthusiast. i love to learn and build projects. i also enjoy working on creative projects, including music production and photography
+I'm [Fernando](about/)! software engineer, audio developer, data engineer, guitar player, scientific communicator, and music-audio-ai enthusiast. I love to learn and build projects. I also enjoy working on creative projects, including music production and photography.
 
 <!-- {{< button href="/servicios/" target="_self" >}}
 Trabajemos juntos →

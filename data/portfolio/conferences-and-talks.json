@@ -1,26 +1,26 @@
 [
     {
-        "title": "Ear Candy Meeting",
+        "title": "Ear Candy Meetings",
         "description": "Introducción a la API de Spotify",
-        "link": "../portfolio/conferences-and-talks/2022/ec-meeting",
+        "link": "../portfolio/conferences-and-talks/ec-meetings",
         "thumbnail": "https://i3.ytimg.com/vi/WR77i7GtLb8/maxresdefault.jpg"
     },
     {
         "title": "Tecnológico de Monterrey",
         "description": "Charla de socios formadores",
-        "link": "../about/",
-        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+        "link": "../portfolio/conferences-and-talks/tec-socios-formadores",
+        "thumbnail": "/portfolio/conferences-and-talks/tec-socios-formadores/gallery/ccm-01.jpg"
     },
     {
-        "title": "IPN",
+        "title": "IPN Expoacustica",
         "description": "Expoacustica",
-        "link": "https://github.com/fergarciadlc",
-        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+        "link": "../portfolio/conferences-and-talks/expoacustica",
+        "thumbnail": "/portfolio/conferences-and-talks/expoacustica/gallery/2023-expoacustica-4.jpg"
     },
     {
         "title": "Mexsynthco",
         "description": "Earcandy Technologies",
-        "link": "https://github.com/fergarciadlc/MSP430",
-        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+        "link": "../portfolio/conferences-and-talks/mexsynthco",
+        "thumbnail": "/portfolio/conferences-and-talks/mexsynthco/gallery/2023-mexsynthco-7.jpg"
     }
 ]

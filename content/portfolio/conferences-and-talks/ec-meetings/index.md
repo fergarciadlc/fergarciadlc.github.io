@@ -1,7 +1,6 @@
 
 ---
-title: "EC Meeting Nov 2022"
-date: 2023-11-26
+title: "EC Meetings"
 draft: false
 
 showDate : false
@@ -20,13 +19,15 @@ showLikes: false
 showAuthor: true
 layoutBackgroundHeaderSpace: false
 ---
+# Ear Candy Meetings Nov 2023
+## Introducción a la API de Spotify
 
-# Introducción a la API de Spotify | Fernando García
+November 30, 2022
 
 This talk is about a use case for the Spotify API, where you can select a song of your choice and generate a playlist based on its style and the same music key as the reference song.
 
-## Video
+### Video
 {{< youtube WR77i7GtLb8 >}}
-## Code
+### Code
 {{< icon "github" >}}
 {{< github repo="fergarciadlc/harmonic-playlist" >}}

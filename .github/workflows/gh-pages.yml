@@ -9,7 +9,7 @@ on:
 
 jobs:
   build-deploy:
-    if: contains(toJson(github.event.commits), '/deploy') == true
+    if: contains(toJson(github.event.commits), '/deploy') == true 
     runs-on: ubuntu-20.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}

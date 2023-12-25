@@ -1,0 +1,80 @@
+/* static/css/project.css */
+
+/* Styles for the project container */
+.project {
+    /* border: 1px solid #ddd; */
+    padding: 5px;
+    margin: 1px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex; /* Use flexbox to align items vertically */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+/* Styles for the project thumbnail */
+/* New class for the thumbnail container */
+.project-thumbnail {
+    height: 100px; /* Adjust this value as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Update styles for the project thumbnail */
+.project img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Changed from contain to cover */
+    /* margin-top: 0%;
+    margin-bottom: 0%; */
+}
+
+/* Styles for the project title */
+.project h2 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    margin-top: 5%;
+}
+
+/* Styles for the project description */
+.project p {
+    font-size: 0.9em;
+}
+
+/* Responsive styling for the grid layout */
+@media (min-width: 576px) {
+    /* Small screens: One project per row */
+    .project {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    /* Medium screens: Two projects per row */
+    .project {
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media (min-width: 992px) {
+    /* Large screens: Three projects per row */
+    .project {
+        width: 31%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Extra-large screens: Four projects per row */
+    .project {
+        width: 23%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}

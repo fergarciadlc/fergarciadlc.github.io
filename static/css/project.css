@@ -1,8 +1,9 @@
 /* static/css/project.css */
+/* testing */
 
 /* Styles for the project container */
 .project {
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
     padding: 5px;
     margin: 1px;
     text-align: center;
@@ -30,7 +31,7 @@
 
 /* Styles for the project description */
 .project p {
-    color: #ffffff;
+    /* color: #ffffff; */
     font-size: 0.9em;
 }
 

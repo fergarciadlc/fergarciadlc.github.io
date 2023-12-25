@@ -3,37 +3,37 @@
         "title": "Orbit",
         "description": "Simple reverb pluging with JUCE",
         "link": "https://github.com/fergarciadlc/orbit/",
-        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+        "thumbnail": "https://raw.githubusercontent.com/fergarciadlc/orbit/main/Assets/orbit.png"
     },
     {
         "title": "Harmonic Playlist",
         "description": "Perfect Spotify playlist for karaoke",
         "link": "https://github.com/fergarciadlc/harmonic-playlist",
-        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+        "thumbnail": "https://user-images.githubusercontent.com/29163881/176597443-70126a90-7232-4397-811b-83ebcdaed06a.png"
     },
     {
         "title": "Mictlan",
         "description": "One knob audio plugin, tension generator",
         "link": "https://github.com/fergarciadlc/mictlan",
-        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+        "thumbnail": "https://raw.githubusercontent.com/fergarciadlc/mictlan/main/Assets/bg.png"
     },
     {
         "title": "BasicChorus",
         "description": "Simple chorus pluging with JUCE",
         "link": "https://github.com/fergarciadlc/BasicChorus",
-        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/6b/JUCE_Logo.png"
     },
     {
         "title": "convolver",
         "description": "Basic convolution plugin with JUCE",
         "link": "https://github.com/fergarciadlc/convolver",
-        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/6b/JUCE_Logo.png"
     },
     {
         "title": "jsfx",
-        "description": "Projects for reaper JSFX programming (REAPER)",
+        "description": "Projects for reaper JSFX programming",
         "link": "https://github.com/fergarciadlc/jsfx",
-        "thumbnail": "https://www.vangoghgallery.com/img/starry_night_full.jpg"
+        "thumbnail": "https://www.reaper.fm/v5img/logo.jpg"
     },
     {
         "title": "PIC-piano",

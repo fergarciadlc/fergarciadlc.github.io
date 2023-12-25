@@ -28,6 +28,6 @@ My passion for music and AI led me to join international initiatives at The Soun
 
 At Ear Candy Technologies (ECT), a Mexican startup, I'm an audio developer and DSP engineer, focusing on creating new audio plugins and developing audio processing algorithms. Utilizing my data engineering background, I also manage our plugins' cloud infrastructure, sharpening my technical and creative skills.
 
-You can check my project on my portfolio, feel free to reach out! :)
+You can check my project on my [portfolio](/portfolio/), feel free to reach out! 😁
 
 <!-- <a target="_blank" href="https://mentorcruise.com/mentor/nunocorao/"> <img class="nozoom" src="https://cdn.mentorcruise.com/img/banner/sky-sm.svg" width="240" alt="MentorCruise"> </a> -->

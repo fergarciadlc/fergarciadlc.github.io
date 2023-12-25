@@ -2,6 +2,7 @@
 
 /* Styles for the project container */
 .project {
+    /* border: 1px solid #ddd; */
     padding: 5px;
     margin: 1px;
     text-align: center;
@@ -14,7 +15,7 @@
 /* Styles for the project thumbnail */
 /* New class for the thumbnail container */
 .project-thumbnail {
-    height: 200px; /* Adjust this value as needed */
+    height: 100px; /* Adjust this value as needed */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,13 +27,15 @@
     max-width: 100%;
     max-height: 100%;
     object-fit: cover; /* Changed from contain to cover */
+    /* margin-top: 0%;
+    margin-bottom: 0%; */
 }
 
 /* Styles for the project title */
 .project h2 {
     font-size: 1.1em;
     margin-bottom: 10px;
-    margin-top: 0%;
+    margin-top: 5%;
 }
 
 /* Styles for the project description */

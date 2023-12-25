@@ -9,31 +9,31 @@
         "title": "Harmonic Playlist",
         "description": "Perfect Spotify playlist for karaoke",
         "link": "https://github.com/fergarciadlc/harmonic-playlist",
-        "thumbnail": "https://user-images.githubusercontent.com/29163881/176597443-70126a90-7232-4397-811b-83ebcdaed06a.png"
+        "thumbnail": "https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Green.png"
     },
     {
         "title": "Mictlan",
         "description": "One knob audio plugin, tension generator",
         "link": "https://github.com/fergarciadlc/mictlan",
-        "thumbnail": "https://raw.githubusercontent.com/fergarciadlc/mictlan/main/Assets/bg.png"
+        "thumbnail": "https://raw.githubusercontent.com/fergarciadlc/mictlan/main/Assets/bg3.png"
     },
     {
         "title": "BasicChorus",
         "description": "Simple chorus pluging with JUCE",
         "link": "https://github.com/fergarciadlc/BasicChorus",
-        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/6b/JUCE_Logo.png"
+        "thumbnail": "https://assets.juce.com/juce/JUCE_banner_github.png"
     },
     {
         "title": "convolver",
         "description": "Basic convolution plugin with JUCE",
         "link": "https://github.com/fergarciadlc/convolver",
-        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/6b/JUCE_Logo.png"
+        "thumbnail": "https://assets.juce.com/juce/JUCE_banner_github.png"
     },
     {
         "title": "jsfx",
         "description": "Projects for reaper JSFX programming",
         "link": "https://github.com/fergarciadlc/jsfx",
-        "thumbnail": "https://www.reaper.fm/v5img/logo.jpg"
+        "thumbnail": "https://www.reaper.fm/v7img/etc.gif"
     },
     {
         "title": "PIC-piano",

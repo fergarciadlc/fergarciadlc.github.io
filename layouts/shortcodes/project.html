@@ -58,9 +58,11 @@
     {{ range $index, $project := $json }}
         <div class="project">
             {{ if index $project "thumbnail" }}
-                <a href="{{ index $project "link" }}">
-                    <img src="{{ index $project "thumbnail" }}" alt="{{ index $project "title" }} Thumbnail">
-                </a>
+                <div class="project-thumbnail">
+                    <a href="{{ index $project "link" }}">
+                        <img src="{{ index $project "thumbnail" }}" alt="{{ index $project "title" }} Thumbnail">
+                    </a>
+                </div>
             {{ end }}
             <h2><a href="{{ index $project "link" }}">{{ index $project "title" }}</a></h2>
             <p>{{ index $project "description" }}</p>

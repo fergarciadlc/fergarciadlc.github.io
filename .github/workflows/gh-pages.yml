@@ -28,6 +28,9 @@ jobs:
       - name: Add custom headers
         run: python3 scripts/add-headers.py
 
+      - name: remove site example
+        run: rm -rf themes/blowfish/exampleSite
+
       - name: Build
         run: hugo --minify
 

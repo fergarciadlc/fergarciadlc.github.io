@@ -20,7 +20,7 @@ showAuthor: true
 layoutBackgroundHeaderSpace: false
 ---
 
-[Click here](CV_FernandoGarcia_DEC23.pdf) to download the PDF Version
+[Click here](https://drive.google.com/uc?export=download&id=1-TpRQqDmtNFfZdTSSj64eWBy0_jXSDAX) to download the PDF Version
 
 # Fernando Garcia de la Cruz
 [fergarciadlc.github.io](https://fergarciadlc.github.io/)\
@@ -29,16 +29,25 @@ layoutBackgroundHeaderSpace: false
 
 
 ## Work Experience 
-**Ear Candy Technologies**
+**Ear Candy Technologies** \
 Audio Developer - DSP Engineer \
-**Globant**
+*August 2022 - present*
+
+**Globant** \
 Python-Data Engineer - Data & Artificial Intelligence Studio \
-**Everis**
+*September 2021 - present*
+
+**Everis** \
 Python Engineer - Data & Analytics \
-**Ciencia desde Cero**
+*January 2021 - September 2021*
+
+**Ciencia desde Cero** \
 Scientific communicator \
-**Guit-Art Music School**
-Guitar Teacher and Audio Engineer 
+*August 2017 - January 2023*
+
+**Guit-Art Music School** \
+Guitar Teacher and Audio Engineer \
+*November 2013 - June 2019*
 
 ## Education
 **BS in Electronics and Communications Engineering**\

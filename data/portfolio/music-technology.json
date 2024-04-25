@@ -19,7 +19,7 @@
     },
     {
         "title": "BasicChorus",
-        "description": "Simple chorus pluging with JUCE",
+        "description": "Simple chorus plugin with JUCE",
         "link": "https://github.com/fergarciadlc/BasicChorus",
         "thumbnail": "https://assets.juce.com/juce/JUCE_banner_github.png"
     },

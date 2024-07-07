@@ -71,9 +71,9 @@ Some open source projects with ECT:
 
 ## DSP Tools
 <!-- {{< project data="data/portfolio/dsp-tools.json" >}} -->
-{{< github repo="fergarciadlc/gentone" >}}
-{{< github repo="fergarciadlc/FFT-conv-decv" >}}
-{{< github repo="fergarciadlc/audio_dsp_notebooks" >}}
+{{< github-compact repo="fergarciadlc/gentone" >}}
+{{< github-compact repo="fergarciadlc/FFT-conv-decv" >}}
+{{< github-compact repo="fergarciadlc/audio_dsp_notebooks" >}}
 
 ## Cool Stuff
 {{< project data="data/portfolio/cool-stuff.json" >}}

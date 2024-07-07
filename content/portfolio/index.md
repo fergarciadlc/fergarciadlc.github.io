@@ -65,9 +65,9 @@ At [Ear Candy Technologies](https://www.earcandytech.com) (ECT), a Mexican start
 Checkout our plugins!
 
 Some open source projects with ECT:
-{{< github repo="Ear-Candy-Technologies/Amaranth">}}
-{{< github repo="Ear-Candy-Technologies/intro-audio-plugins-distortion-2023">}}
-{{< github repo="Ear-Candy-Technologies/intro-audio-plugins-expoacustica-2023">}}
+{{< github-compact repo="Ear-Candy-Technologies/Amaranth">}}
+{{< github-compact repo="Ear-Candy-Technologies/intro-audio-plugins-distortion-2023">}}
+{{< github-compact repo="Ear-Candy-Technologies/intro-audio-plugins-expoacustica-2023">}}
 
 ## DSP Tools
 <!-- {{< project data="data/portfolio/dsp-tools.json" >}} -->

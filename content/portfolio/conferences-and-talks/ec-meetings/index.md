@@ -29,5 +29,4 @@ This talk is about a use case for the Spotify API, where you can select a song o
 ### Video
 {{< youtube WR77i7GtLb8 >}}
 ### Code
-{{< icon "github" >}}
-{{< github repo="fergarciadlc/harmonic-playlist" >}}
+{{< github-compact repo="fergarciadlc/harmonic-playlist" >}}

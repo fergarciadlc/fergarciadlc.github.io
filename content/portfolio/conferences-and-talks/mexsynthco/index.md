@@ -25,7 +25,7 @@ During September 2023, I participated with [Ear Candy Technologies](https://www.
 
 We presented **Amaranth**, an open source synth, presented about the project and invite attendees to participate.
 
-{{< github repo = "Ear-Candy-Technologies/Amaranth">}}
+{{< github-compact repo = "Ear-Candy-Technologies/Amaranth">}}
 
 ### Gallery
 {{< gallery >}}

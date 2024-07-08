@@ -25,15 +25,21 @@
   pageRef = "cv"
   weight = 30
 
-[[main]]
-  name = "portfolio"
-  pageRef = "portfolio"
-  weight = 20
+# [[main]]
+#   name = "projects"
+#   pageRef = "/portfolio/"
+#   weight = 20
 
 [[main]]
   name = "posts"
   pageRef = "posts"
   weight = 40
+
+# Workaround for portfolio _index.md
+[[main]]
+  name = "projects"
+  url = "/portfolio/"
+  weight = 20
 
 #[[main]]
 #  name = "Blog"

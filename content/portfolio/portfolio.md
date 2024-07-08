@@ -17,6 +17,10 @@ showViews: false
 showLikes: false
 showAuthor: true
 layoutBackgroundHeaderSpace: false
+showContent: false
+
+url: /portfolio/
+
 ---
 
 Here are some of my projects. thanks for having a look!

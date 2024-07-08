@@ -1,13 +1,16 @@
 #!/bin/bash
 
+# Set version
+VERSION="2.72.1"
+
 # URL of the zip file
-ZIP_URL="https://github.com/nunocoracao/blowfish/archive/refs/tags/v2.48.0.zip"
+ZIP_URL="https://github.com/nunocoracao/blowfish/archive/refs/tags/v${VERSION}.zip"
 
 # Target directory
 TARGET_DIR="themes"
 
 # Directory name inside the zip
-ZIP_DIR_NAME="blowfish-2.48.0"
+ZIP_DIR_NAME="blowfish-${VERSION}"
 
 # Final directory name after renaming
 FINAL_DIR_NAME="blowfish"

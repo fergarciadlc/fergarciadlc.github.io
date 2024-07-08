@@ -25,7 +25,7 @@
                     <div class="p-1">
                         {{/* Project title */}}
                         <h3 class="title-font text-sm font-medium text-gray-100 hover:text-primary-400">
-                            <a href="{{ index $project "link" }}" class="block" target="_blank">{{ index $project "title" }}</a>
+                            <a href="{{ index $project "link" }}" class="block">{{ index $project "title" }}</a>
                         </h3>
                         {{/* Project description */}}
                         <p class="leading-relaxed text-xs text-gray-300 mt-1">{{ index $project "description" | truncate 40 }}</p>
@@ -52,7 +52,7 @@
             <div class="p-1">
                 {{/* Project title */}}
                 <h3 class="title-font text-sm font-medium text-gray-100 hover:text-primary-400">
-                    <a href="{{ .Get "link" }}" class="block" target="_blank">{{ .Get "title" }}</a>
+                    <a href="{{ .Get "link" }}" class="block">{{ .Get "title" }}</a>
                 </h3>
                 {{/* Project description */}}
                 <p class="leading-relaxed text-xs text-gray-300 mt-1">{{ .Get "description" | truncate 40 }}</p>

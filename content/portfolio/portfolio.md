@@ -35,33 +35,33 @@ Here are some of my projects. thanks for having a look!
 ## The Sound Of AI
 My passion for music and AI led me to join international initiatives at The Sound Of AI (TSOAI), mentored by Dr. Valerio Velardo. This involvement enhanced my career and deepened my understanding in audio, music, and AI. 
 
-{{< timeline >}}
+{{< timeline-compact >}}
 
-{{< timelineItem header="The Sound Of AI Accelerator" badge="TSOAI" subheader="Accelerator for music AI startups" >}}
+{{< timelineItem-compact header="The Sound Of AI Accelerator" badge="TSOAI" subheader="Accelerator for music AI startups (April to July 2023)" >}}
 <p>
     I served as the Assistant Director for the first <a href="https://thesoundofai.com/accelerator.html">Sound of AI Accelerator</a>, a startup accelerator in music-audio-AI. My responsibilities included program organization, team support, and coordinating with mentors and speakers.
 </p>
 
 April 11th to July 2nd 2023
-{{< /timelineItem >}}
+{{< /timelineItem-compact >}}
 
-{{< timelineItem header="1st The Sound Of AI Hackathon" badge="TSOAI" subheader="Hackahthon music AI startups" >}}
+{{< timelineItem-compact header="1st The Sound Of AI Hackathon" badge="TSOAI" subheader="Hackathon music AI startups (July 2022)" >}}
 <p>
     I played a key role in organizing and participating in the <a href="https://musikalkemist.github.io/thesoundofaihackathon/">1st The Sound of AI Hackathon</a>, which focused on audio and music technology. My team developed <a href="https://github.com/rodoortiz/Modelizer">Modelizer</a>, a real-time audio processing VST using neural networks.
 </p>
 
 8-10 July 2022
-{{< /timelineItem >}}
+{{< /timelineItem-compact >}}
 
-{{< timelineItem header="Open Source Research" badge="TSOAI" subheader="Collaborative research project" >}}
+{{< timelineItem-compact header="Open Source Research" badge="TSOAI" subheader="Collaborative research project (September 2022)" >}}
 <p>
     I contributed significantly to the <a href="https://thesoundofaiosr.github.io/">Open Source Research</a> project, a collaborative effort with over 200 TSOAI community members. My key achievement was co-authoring "<a href="https://zenodo.org/records/7088416">From Words to Sound: Neural Audio Synthesis of Guitar Sounds with Timbral Descriptors</a>" for the 3rd Conference on <a href="https://aimusiccreativity.org/">AI Music Creativity</a> (2022). As Project Manager, I led team coordination and communication efforts. Additionally, as a programmer, I contributed to the development of a voice-activated neural synthesizer.
 </p>
 
 Open Source Research finished successfully in September 2022 after 2 years of work.
-{{< /timelineItem >}}
+{{< /timelineItem-compact >}}
 
-{{< /timeline >}}
+{{< /timeline-compact >}}
 
 ## Ear Candy Technologies
 At [Ear Candy Technologies](https://www.earcandytech.com) (ECT), a Mexican startup, I'm an audio developer and DSP engineer, focusing on creating new audio plugins and developing audio processing algorithms. Utilizing my data engineering background, I also manage our plugins' cloud infrastructure, sharpening my technical and creative skills.

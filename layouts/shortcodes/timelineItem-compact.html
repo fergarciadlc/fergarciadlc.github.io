@@ -1,0 +1,37 @@
+{{ $icon := .Get "icon" | default "check" }}
+{{ $header := .Get "header" }}
+{{ $badge := .Get "badge" }}
+{{ $subheader := .Get "subheader" }}
+{{ $text := .Get "text" }}
+<li class="mb-2"> <!-- Reduced bottom margin -->
+  <div class="flex flex-start">
+    <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-2"> <!-- Reduced top margin -->
+      {{ partial "icon" $icon }}
+    </div>
+    <div class="block p-4 rounded-lg shadow-2xl min-w-full ml-6 break-words"> <!-- Reduced padding -->
+      <div class="flex justify-between">
+        {{ if $header }}
+        <h2 class="mt-0 mb-1"> <!-- Reduced bottom margin -->
+          {{ $header }} 
+        </h2>
+        {{ end }}
+        {{ if $badge }}
+        <h3 class="mt-0 mb-1"> <!-- Reduced bottom margin -->
+          {{ partial "badge"  $badge}}
+        </h3>
+        {{ end }}
+      </div>
+      {{ if $subheader }}
+      <h4 class="mt-0 mb-1 text-sm"> <!-- Reduced bottom margin and font size -->
+        {{ $subheader }}
+      </h4>
+      {{ end }}
+      <details class="mt-2">
+        <summary class="cursor-pointer text-blue-500">Show Content</summary>
+        <div class="mt-2 text-sm"> <!-- Reduced top margin and font size -->
+          {{- .Inner -}}
+        </div>
+      </details>
+    </div>
+  </div>
+</li>

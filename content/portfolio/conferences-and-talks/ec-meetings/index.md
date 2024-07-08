@@ -1,4 +1,3 @@
-
 ---
 title: "EC Meetings"
 draft: false
@@ -18,6 +17,7 @@ showViews: false
 showLikes: false
 showAuthor: true
 layoutBackgroundHeaderSpace: false
+
 ---
 # Ear Candy Meetings Nov 2023
 ## Introducción a la API de Spotify

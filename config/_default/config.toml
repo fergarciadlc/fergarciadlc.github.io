@@ -17,6 +17,9 @@ buildFuture = false
 
 # googleAnalytics = "G-XXXXXXXXX"
 
+[permalinks]
+  portfolio = "/portfolio/:slug/"
+
 [imaging]
   anchor = 'Center'
 

@@ -19,7 +19,7 @@ showAuthor: true
 layoutBackgroundHeaderSpace: false
 ---
 
-Here are some of my projects! Thanks for having a look!
+Here are some of my projects. thanks for having a look!
 
 ## Music Technology
 {{< project data="data/portfolio/music-technology.json" >}}

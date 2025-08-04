@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2023-11-26
+date: 2025-08-04
 draft: false
 
 showDate : false
@@ -19,17 +19,19 @@ showLikes: false
 showAuthor: true
 layoutBackgroundHeaderSpace: false
 ---
+**Engineer, musician, and curious mind** - hi, I'm Fernando!
 
-My name is Fernando. I am currently pursuing an **MSc in Sound and Music Computing** at Universitat Pompeu Fabra's Music Technology Group in Barcelona, where I work as a research assistant developing audio plugins and real-time processing systems.
+I’m pursuing an **MSc in Sound & Music Computing** at Universitat Pompeu Fabra’s Music Technology Group (Barcelona), exploring the intersection of **audio, music, technology, and AI**. My work blends research, engineering, and creativity.
 
-My journey began with a passion for music and guitar from a young age, which led me to earn a **Bachelor's in Communications and Electronics Engineering** with a focus on **Acoustics**. During my studies, I explored DSP, signal processing, physics, and music technology while gaining hands-on experience in software development, guitar teaching, and music production.
+**Some highlights from my journey:**
+- **Dolby Laboratories** — Software Engineering Intern: contributed to **C++ audio libraries**, **DSP pipelines**, and prototyped **ML-driven sound analysis tools**.
+- **Audio Developer** — At [Ear Candy Technologies](https://earcandytech.com/) and [MTG](https://www.upf.edu/web/mtg), built [audio plug‑ins](https://earcandytech.com/plugins) with the JUCE Framework, implemented **CI/CD pipelines**, and handled **DevOps** for audio software.
+- **Open-source** — Lead developer of **[essentia‑plugins](https://github.com/MTG/essentia-plugins)**, a real-time audio analysis toolkit using JUCE and [Essentia](https://essentia.upf.edu/).
+- **Data Engineering** — Designed **ETL processes**, databases, APIs, and deployed ML models into production.
+- **Community** — Speaker at **Audio Developer Conference 2024**: *[Rock-Solid Releases](https://www.youtube.com/watch?v=eKvPupqq9YE)* on CI/CD for audio developers. Contributor to several initiatives from [The Sound of AI](https://thesoundofai.com/) with [Valerio Velardo](https://valeriovelardo.com/).
 
-Currently, I'm involved in exciting research projects including the development of [**essentia-plugins**](https://github.com/MTG/essentia-plugins) - a collection of real-time audio analysis plugins using the Essentia library and JUCE framework. I recently completed internships at **Dolby Laboratories** working on C++ audio libraries and AI research projects.
+When I’m not coding or researching, you'll find me playing guitar, at the gym, or taking photos with my camera.
 
-I'm also active in the audio development community - I was a **speaker at Audio Developer Conference 2024** where I presented ["Rock-Solid Releases"](https://www.youtube.com/watch?v=eKvPupqq9YE) about CI/CD practices for audio developers.
-
-When I'm not coding or researching, I enjoy contributing to open-source projects, scientific communication, and exploring the intersection of music, technology, and AI.
-
-You can check my projects in my [portfolio](/portfolio/) or **[watch my ADC24 talk](https://www.youtube.com/watch?v=eKvPupqq9YE)**! Feel free to reach out! 😁
+Check out my [portfolio](/portfolio/) and feel free to reach out! 😁
 
 <!-- <a target="_blank" href="https://mentorcruise.com/mentor/nunocorao/"> <img class="nozoom" src="https://cdn.mentorcruise.com/img/banner/sky-sm.svg" width="240" alt="MentorCruise"> </a> -->

@@ -20,11 +20,11 @@ showAuthor: true
 layoutBackgroundHeaderSpace: false
 ---
 
-[Click here](https://drive.google.com/uc?export=download&id=1-TpRQqDmtNFfZdTSSj64eWBy0_jXSDAX) to download the PDF Version
+[Click here](https://drive.google.com/uc?export=download&id=1CQsCBHwZI_o0pCjoYTGqALPvzuURNNN3) to download the PDF Version
 
 # Fernando Garcia de la Cruz
 
-**Barcelona, Spain** | +34 603 843 888 | fergarciadlc@gmail.com
+**Barcelona, Spain** | fergarciadlc@gmail.com
 
 [🌐 fergarciadlc.github.io](https://fergarciadlc.github.io/) | 
 [🐙 GitHub](https://github.com/fergarciadlc) | 
@@ -97,13 +97,6 @@ Personal Open Source projects can be found in my [GitHub](https://github.com/fer
 
 **Essentia Plugins** | *May 2025 -- September 2025* \
 Developed [essentia-plugins](https://github.com/MTG/essentia-plugins), a set of audio plugins using the Essentia library and the JUCE Framework.
-
-| Plugin name | Description | Build system |
-|-------------|-------------|--------------|
-| **RMS** | Sample‑accurate root‑mean‑square meter | CMake & Projucer |
-| **Energy** | Frame‑based energy estimator | CMake |
-| **Audio2Midi** | Monophonic pitch tracker that outputs MIDI events | CMake & Projucer |
-| **ZeroCrossingRate** | Calculates zero crossing rate for audio analysis | CMake |
 
 **The Sound of AI Community Projects** | *July 2022 -- July 2023* \
 Multiple roles in The Sound of AI community initiatives including: Assistant Director for the first [Accelerator program](https://thesoundofai.com/accelerator.html) (startup program in music-audio-AI), organizer and participant in the [1st Hackathon](https://musikalkemist.github.io/thesoundofaihackathon/) where I developed [Modelizer](https://github.com/rodoortiz/Modelizer) (real-time audio processing VST), and contributor to the [Open Source Research](https://thesoundofaiosr.github.io/) project with 200+ community members, co-authoring the published neural synthesis research.

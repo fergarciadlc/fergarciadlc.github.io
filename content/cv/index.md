@@ -23,141 +23,153 @@ layoutBackgroundHeaderSpace: false
 [Click here](https://drive.google.com/uc?export=download&id=1-TpRQqDmtNFfZdTSSj64eWBy0_jXSDAX) to download the PDF Version
 
 # Fernando Garcia de la Cruz
-[fergarciadlc.github.io](https://fergarciadlc.github.io/)\
-[fergarciadlc](https://github.com/fergarciadlc)\
-[Fernando Garcia de la Cruz](https://www.linkedin.com/in/fergarciadlc/)
 
+**Barcelona, Spain** | +34 603 843 888 | fergarciadlc@gmail.com
+
+[🌐 fergarciadlc.github.io](https://fergarciadlc.github.io/) | 
+[🐙 GitHub](https://github.com/fergarciadlc) | 
+[💼 LinkedIn](https://www.linkedin.com/in/fergarciadlc/)
+
+---
 
 ## Work Experience 
+
+**Dolby Laboratories** \
+Software Developer - Entertainment Tech | *Internship* \
+*March 2025 -- August 2025*
+
+- General C++ software engineering
+- C and C++ libraries for audio and signal processing for internal use
+- Audio Plugins development
+- Internal research projects using AI models
+- Volunteering
+
+**Music Technology Group - UPF** \
+Research Assistant - Audio Developer | *Internship* \
+*May 2025 -- Present*
+
+- Integrated Essentia library in audio plugins for real-time processing using the JUCE framework
+- Developed [essentia-plugins](https://github.com/MTG/essentia-plugins) repository
+- Created multiple audio analysis plugins with CMake and Projucer build systems
+
 **Ear Candy Technologies** \
-Audio Developer - DSP Engineer \
-*August 2022 - present*
+Audio Developer -- DSP Engineer \
+*August 2022 -- March 2025*
 
 **Globant** \
-Python-Data Engineer - Data & Artificial Intelligence Studio \
-*September 2021 - present*
+Python-Data Engineer -- Data & Artificial Intelligence Studio \
+*September 2021 -- September 2024*
 
 **Everis** \
-Python Engineer - Data & Analytics \
-*January 2021 - September 2021*
+Python Engineer -- Data & Analytics \
+*January 2021 -- September 2021*
 
-**Ciencia desde Cero** \
-Scientific communicator \
-*August 2017 - January 2023*
-
-**Guit-Art Music School** \
-Guitar Teacher and Audio Engineer \
-*November 2013 - June 2019*
+---
 
 ## Education
-**BS in Electronics and Communications Engineering**\
-National Polytechnic Institute\
-Superior College of Mechanical and Electrical Engineering\
-Speciality in **Acoustics**\
-Mexico City, Mexico\
-Professional License: **12035208**
 
+**MSc Sound and Music Computing** \
+Universitat Pompeu Fabra, Music Technology Group \
+*September 2024 -- 2026* \
+Barcelona, Spain
 
-## Projects
+**BS in Electronics and Communications Engineering** \
+Instituto Politécnico Nacional (ESIME) \
+Speciality in **Acoustics** \
+*January 2015 -- November 2019* \
+Mexico City, Mexico
 
-Personal Open Source projects can be found in my
-[github](https://github.com/fergarciadlc) and
-[portflolio](https://fergarciadlc.github.io/portfolio/).
+---
 
-**The Sound of AI Accelerator** \
-I served as the Assistant Director for the first [Sound of AI
-Accelerator](https://thesoundofai.com/accelerator.html), a startup
-accelerator in music-audio-AI. My responsibilities included program
-organization, team support, and coordinating with mentors and speakers.
+## Publications
 
-**1st The Sound Of AI Hackathon**\
-I played a key role in organizing and participating in the [1st The
-Sound of AI
-Hackathon](https://musikalkemist.github.io/thesoundofaihackathon/),
-which focused on audio and music technology. My team developed
-[Modelizer](https://github.com/rodoortiz/Modelizer), a real-time audio
-processing VST using neural networks.
+**From Words to Sound: Neural Audio Synthesis of Guitar Sounds with Timbral Descriptors** \
+*September 2022* \
+The Sound of AI Community (3rd author) \
+Presented at the 3rd Conference on AI Music Creativity (AIMC 2022) \
+DOI: [10.5281/zenodo.7088416](https://doi.org/10.5281/zenodo.7088416)
 
-**Open Source Research**\
-I contributed significantly to the [Open Source
-Research](https://thesoundofaiosr.github.io/) project, a collaborative
-effort with over 200 TSOAI community members. My key achievement was
-co-authoring \"From Words to Sound: Neural Audio Synthesis of Guitar
-Sounds with Timbral Descriptors\" for the 3rd Conference on AI Music
-Creativity (2022). As Project Manager, I led team coordination and
-communication efforts. Additionally, as a programmer, I contributed to
-the development of a voice-activated neural synthesizer.
+---
 
-**Reverberation time measurement using Matlab**\
-The project aimed to develop a Matlab-based program for the measurement
-of reverberation time, using basic audio equipment (Microphone, speaker,
-and audio interface).
+## Selected Projects
 
-**Intelligent Interpreter (Hackathon BBVA 2020)**\
-OCR ML model for the automation of the transcription task in the bank
-environment by the usage of the Google Vision API, the communication was
-implemented through an API REST application using Python and Flask and
-presented within a web service.
+Personal Open Source projects can be found in my [GitHub](https://github.com/fergarciadlc) and [portfolio](https://fergarciadlc.github.io/portfolio/).
 
-**Selected Open Source Projects for music technology**:
-[Orbit](https://github.com/fergarciadlc/orbit/), [Harmonic
-Playlist](https://github.com/fergarciadlc/harmonic-playlist/),
-[Mictlan](https://github.com/fergarciadlc/mictlan/),
-[Amaranth](https://github.com/Ear-Candy-Technologies/Amaranth),
-[gentone](https://github.com/fergarciadlc/gentone/),
+**Essentia Plugins** | *May 2025 -- September 2025* \
+Developed [essentia-plugins](https://github.com/MTG/essentia-plugins), a set of audio plugins using the Essentia library and the JUCE Framework.
+
+| Plugin name | Description | Build system |
+|-------------|-------------|--------------|
+| **RMS** | Sample‑accurate root‑mean‑square meter | CMake & Projucer |
+| **Energy** | Frame‑based energy estimator | CMake |
+| **Audio2Midi** | Monophonic pitch tracker that outputs MIDI events | CMake & Projucer |
+| **ZeroCrossingRate** | Calculates zero crossing rate for audio analysis | CMake |
+
+**The Sound of AI Community Projects** | *July 2022 -- July 2023* \
+Multiple roles in The Sound of AI community initiatives including: Assistant Director for the first [Accelerator program](https://thesoundofai.com/accelerator.html) (startup program in music-audio-AI), organizer and participant in the [1st Hackathon](https://musikalkemist.github.io/thesoundofaihackathon/) where I developed [Modelizer](https://github.com/rodoortiz/Modelizer) (real-time audio processing VST), and contributor to the [Open Source Research](https://thesoundofaiosr.github.io/) project with 200+ community members, co-authoring the published neural synthesis research.
+
+**Selected Open Source Projects (Music Technology)**: 
+[Orbit](https://github.com/fergarciadlc/orbit/), 
+[Harmonic Playlist](https://github.com/fergarciadlc/harmonic-playlist/), 
+[Mictlan](https://github.com/fergarciadlc/mictlan/), 
+[Amaranth](https://github.com/Ear-Candy-Technologies/Amaranth), 
+[gentone](https://github.com/fergarciadlc/gentone/), 
 [FFT-conv-decv](https://github.com/fergarciadlc/FFT-conv-decv/).
 
+---
 
 ## Conferences and Talks
-**Audio Developer Conference 2023**\
-Attendee, and workshops on Cmajor and Entrepreneurship.\
-**Socios Formadores (ITESM)**\
-During August 2023, I participated with Ear Candy Technologies in a set
-of workshops with JUCE for the program Socios Formadores at Technológico
-de Monterrey, campus Mexico City and Puebla.\
-**Expoacustica 2023 (IPN)**\
-May 2023, I participated with Ear Candy Technologies in IPN expoacustica
-2023, international congress on Acoustics. I presented a Workshop and a
-conference on Audio Plugins.\
-**Mexsynthco 2023**\
-September 2023, with Ear Candy Technologies presented
-[Amaranth](https://github.com/Ear-Candy-Technologies/Amaranth), an open
-source synth, presented about the project.\
-**Ear Candy Meetings 2022**\
-This [talk](https://www.youtube.com/watch?v=WR77i7GtLb8) is about a use
-case for the Spotify API, where you can select a song of your choice and
-generate a playlist based on its style and the same music key as the
-reference song.
 
+**🎤 Speaker: Audio Developer Conference 2024** | *November, Bristol, UK* \
+Talk: ["Rock-Solid Releases"](https://conference.audio.dev/session/2024/rock-solid-releases-ci-cd-for-audio-developers/) about CI/CD for Audio Plugins \
+[🎥 Watch on YouTube](https://www.youtube.com/watch?v=eKvPupqq9YE)
 
-## Technical Strengths
+**Socios Formadores (ITESM)** | *August 2023* \
+Participated with Ear Candy Technologies in workshops on JUCE for the program "Socios Formadores" at Tecnológico de Monterrey (campus Mexico City and Puebla).
 
-**Programming languages**         Python, Matlab, C, C++, Go, CMajor \
-**Data Engineering**              Apache Beam, Airflow, Kafka, Apache Beam, Spark-Pyspark. \
-**Google Cloud Platform**         Dataflow, CloudFunctions, Composer, Computer Engine, CloudRun. \
-**DBMS**                          SQL: Postgres, MySQL, BigQuery, NoSQL: MongoDB. \
-**API Development:**              Flask, FastAPI. \
-**Data analysis**                 Numpy, Pandas, SciPy, Librosa, OpenCV. \
-**Data Visualization**            Matplotlib, Seaborn, Plotly, Cufflinks. \
-**Machine Learning**              SciKit-Learn, Tensorflow, Keras. \
-**DevOps**                        Docker, Travis CI, Jenkins, Kubernetes. \
-**Web Development**               HTML, CSS, Javascript, Flask, Django. \
-**Audio and Signal Processing**   Matlab, C++-JUCE, Pure Data. \
-**Media and Office Software**     Reaper, Adobe Suite, MS Office. \
-**AI Tools**                      ChatGPT, DALL-E, Midjourney, Stable Diffusion. \
+**Expoacustica 2023 (IPN)** | *May 2023* \
+Presented a workshop and a conference on Audio Plugins with Ear Candy Technologies at IPN's Expoacustica 2023.
 
-## Languages 
-**English** (Fluent)
+**Mexsynthco 2023** | *September 2023* \
+Presented [Amaranth](https://github.com/Ear-Candy-Technologies/Amaranth) (an open-source synth) with Ear Candy Technologies.
 
-**Pre-Sessional English Course** - Queen Mary University of London,
-Durham University, University of Leeds. **Overall Weighted Average:
-61.5**\
-Reading: 62 / 68\
-Writing: 58 / 68\
-Speaking: 68 /68\
-Listening: 17 / 20
+**Ear Candy Meetings 2022** \
+Delivered a talk on using the Spotify API to generate style- and key-based playlists from a reference song: [video link](https://www.youtube.com/watch?v=WR77i7GtLb8).
 
-- **TOEFL ITP** Total Score: 557
-- **IELTS** Overall band: 6.0
+---
 
+## Additional Experience
+
+**Teacher Assistant** | *2025 - present* \
+MTG-UPF - Barcelona \
+[Generative Music AI workshop](https://www.upf.edu/web/mtg/generative-music-ai-workshop).
+
+**Ciencia desde Cero** | *August 2017 -- January 2023* \
+Scientific Communicator
+
+**Guit-Art Music School** | *November 2013 -- June 2019* \
+Guitar Teacher and Audio Engineer
+
+---
+
+## Technical Skills
+
+| **Category** | **Technologies & Tools** |
+|--------------|---------------------------|
+| **Audio/DSP Development** | JUCE (C++), Essentia, Pure Data, Matlab |
+| **Programming Languages** | Python, C/C++, Go, CMajor, Matlab |
+| **Machine Learning** | scikit-learn, TensorFlow, Keras, Librosa |
+| **Data Engineering** | Apache Beam, Airflow, Kafka, Spark (PySpark) |
+| **Data Analysis** | NumPy, Pandas, SciPy, OpenCV |
+| **Data Visualization** | Matplotlib, Seaborn, Plotly, Cufflinks |
+| **Cloud & DevOps** | GCP, Docker, Travis CI, Jenkins, Kubernetes |
+| **Databases** | SQL (Postgres, MySQL, BigQuery), NoSQL (MongoDB) |
+| **Web & API** | HTML, CSS, JavaScript, Flask, Django, FastAPI |
+| **AI Tools** | ChatGPT, DALL-E, Midjourney, Stable Diffusion |
+
+---
+
+## Languages
+
+**English** (Fluent - Professional Proficiency) \
 **Spanish** (Native)

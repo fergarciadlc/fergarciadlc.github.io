@@ -30,10 +30,10 @@
 #   pageRef = "/portfolio/"
 #   weight = 20
 
-[[main]]
-  name = "posts"
-  pageRef = "posts"
-  weight = 40
+# [[main]]
+#   name = "posts"
+#   pageRef = "posts"
+#   weight = 40
 
 # Workaround for portfolio _index.md
 [[main]]

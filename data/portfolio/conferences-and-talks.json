@@ -1,5 +1,11 @@
 [
     {
+        "title": "Audio Developer Conference 2024",
+        "description": "Rock-Solid Releases: CI/CD for Audio Developers",
+        "link": "../portfolio/conferences-and-talks/adc-2024",
+        "thumbnail": "https://i3.ytimg.com/vi/eKvPupqq9YE/maxresdefault.jpg"
+    },
+    {
         "title": "Ear Candy Meetings",
         "description": "Introducción a la API de Spotify",
         "link": "../portfolio/conferences-and-talks/ec-meetings",

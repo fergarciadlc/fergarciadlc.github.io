@@ -1,6 +1,6 @@
 ---
 title: "Audio Developer Conference 2024"
-date: 2024-11-01
+date: 2024-11-13
 draft: false
 showDate: true
 showDateUpdated: false

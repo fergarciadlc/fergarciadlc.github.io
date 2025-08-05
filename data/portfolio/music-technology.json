@@ -1,15 +1,51 @@
 [
     {
+        "title": "Twizzlay",
+        "description": "Ping-pong delay plugin with ECT",
+        "link": "https://earcandytech.com/twizzlay",
+        "thumbnail": "https://earcandytech.com/images/plugins/twizzlay/mainViewTwizzlay.webp"
+    },
+    {
+        "title": "Gummy Groove",
+        "description": "Your ultimate Chorus plugin with ECT",
+        "link": "https://earcandytech.com/gummygroove",
+        "thumbnail": "https://earcandytech.com/images/plugins/gummygroove/mainViewGummy.webp"
+    },
+    {
         "title": "Orbit",
         "description": "Simple reverb pluging with JUCE",
-        "link": "https://github.com/fergarciadlc/orbit/",
+        "link": "https://github.com/fergarciadlc/orbit",
         "thumbnail": "https://raw.githubusercontent.com/fergarciadlc/orbit/main/Assets/orbit.png"
+    },
+    {
+        "title": "gdrm",
+        "description": "Generative adversarial network for drums generation",
+        "link": "https://github.com/fergarciadlc/gdrm",
+        "thumbnail": "https://img.youtube.com/vi/SnJgByFKxcg/maxresdefault.jpg"
+    },
+    {
+        "title": "Playilist geneator with Essentia",
+        "description": "Audio content based playlists",
+        "link": "https://github.com/fergarciadlc/amplab-essentia-content-based-playlists",
+        "thumbnail": "https://img.youtube.com/vi/HGSQNTFlj-0/maxresdefault.jpg"
     },
     {
         "title": "Harmonic Playlist",
         "description": "Perfect Spotify playlist for karaoke",
         "link": "https://github.com/fergarciadlc/harmonic-playlist",
         "thumbnail": "https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Green.png"
+    },
+    {
+        "title": "Essentia Plugins",
+        "description": "Audio plugins with Essentia",
+        "link": "https://github.com/MTG/essentia-plugins",
+        "thumbnail": "https://repository-images.githubusercontent.com/10456942/af3a2b00-9479-11ea-9711-b0071f813778"
+    },
+    {
+        "title": "wdf-filters",
+        "description": "Analog filters modeling plugin with WDF",
+        "link": "https://github.com/fergarciadlc/wdf-filters",
+        "thumbnail": "https://www.analogictips.com/wp-content/uploads/2016/10/Active_Highpass_Filter_RC.png"
     },
     {
         "title": "Mictlan",
@@ -39,6 +75,6 @@
         "title": "PIC-piano",
         "description": "Simple piano project for PIC18F4550",
         "link": "https://github.com/fergarciadlc/PIC-Piano",
-        "thumbnail": "https://camo.githubusercontent.com/6e8b7e1a270b4be60290ae2c9b6c673eb0bb4edc544db4cee6633ac357792fe5/68747470733a2f2f692e6962622e636f2f713530337778582f61736d2e706e67"
+        "thumbnail": "https://camo.githubusercontent.com/5bbde2663d71313831825e137a1fd8f589143ee0cb053d53638a02b50f4cd827/68747470733a2f2f692e6962622e636f2f713530337778582f61736d2e706e67"
     }
 ]

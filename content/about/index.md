@@ -30,8 +30,6 @@ I’m pursuing an **MSc in Sound & Music Computing** at Universitat Pompeu Fabra
 - **Data Engineering** — Designed **ETL processes**, databases, APIs, and deployed ML models into production.
 - **Community** — Speaker at **Audio Developer Conference 2024**: *[Rock-Solid Releases](https://www.youtube.com/watch?v=eKvPupqq9YE)* on CI/CD for audio developers. Contributor to several initiatives from [The Sound of AI](https://thesoundofai.com/) with [Valerio Velardo](https://valeriovelardo.com/).
 
-When I’m not coding or researching, you'll find me playing guitar, at the gym, or taking photos with my camera.
-
 Check out my [portfolio](/portfolio/) and feel free to reach out! 😁
 
 <!-- <a target="_blank" href="https://mentorcruise.com/mentor/nunocorao/"> <img class="nozoom" src="https://cdn.mentorcruise.com/img/banner/sky-sm.svg" width="240" alt="MentorCruise"> </a> -->

@@ -22,7 +22,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "latest"
+          hugo-version: '0.128.2'   # last release Blowfish officially supports
+          extended: true
 
       - name: Install manually blowfish
         run: sh scripts/download-blowfish.sh

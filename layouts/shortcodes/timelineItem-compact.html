@@ -2,33 +2,28 @@
 {{ $header := .Get "header" }}
 {{ $badge := .Get "badge" }}
 {{ $subheader := .Get "subheader" }}
-{{ $text := .Get "text" }}
-<li class="mb-2"> <!-- Reduced bottom margin -->
+{{ $summary := .Get "summary" | default "Show content" }}
+
+<li class="mb-2">
   <div class="flex flex-start">
-    <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-2"> <!-- Reduced top margin -->
-      {{ partial "icon" $icon }}
+    <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-2" aria-hidden="true">
+      {{ partial "icon.html" $icon }}
     </div>
-    <div class="block p-4 rounded-lg shadow-2xl min-w-full ml-6 break-words"> <!-- Reduced padding -->
-      <div class="flex justify-between">
+    <div class="block p-4 rounded-lg shadow-2xl min-w-full ml-6 break-words">
+      <div class="flex justify-between items-start gap-2">
         {{ if $header }}
-        <h2 class="mt-0 mb-1"> <!-- Reduced bottom margin -->
-          {{ $header }} 
-        </h2>
+          <h3 class="mt-0 mb-1 text-base text-neutral-900 dark:text-neutral-100">{{ $header }}</h3>
         {{ end }}
         {{ if $badge }}
-        <h3 class="mt-0 mb-1"> <!-- Reduced bottom margin -->
-          {{ partial "badge"  $badge}}
-        </h3>
+          <div class="mt-0 mb-1">{{ partial "badge" $badge }}</div>
         {{ end }}
       </div>
       {{ if $subheader }}
-      <h4 class="mt-0 mb-1 text-sm"> <!-- Reduced bottom margin and font size -->
-        {{ $subheader }}
-      </h4>
+        <p class="mt-0 mb-1 text-sm text-neutral-600 dark:text-neutral-300">{{ $subheader }}</p>
       {{ end }}
       <details class="mt-2">
-        <summary class="cursor-pointer text-blue-500">Show Content</summary>
-        <div class="mt-2 text-sm"> <!-- Reduced top margin and font size -->
+        <summary class="cursor-pointer text-blue-600 dark:text-blue-400 hover:underline">{{ $summary }}</summary>
+        <div class="mt-2 text-sm text-neutral-800 dark:text-neutral-200">
           {{- .Inner -}}
         </div>
       </details>

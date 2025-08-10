@@ -1,5 +1,6 @@
 {{/* Get the class parameter or set it to an empty string if not provided */}}
 {{ $class := .Get "class" | default "" }}
+{{ $openInNewTab := .Get "newtab" | default false }}
 
 {{/* Check if a data file is provided */}}
 {{ if .Get "data" }}
@@ -18,14 +19,14 @@
                         {{/* Thumbnail container */}}
                         <div class="h-24 overflow-hidden flex items-center justify-center bg-gray-700">
                             {{/* Thumbnail image */}}
-                            <img class="max-h-full max-w-full object-scale-down" src="{{ index $project "thumbnail" }}" alt="{{ index $project "title" }} Thumbnail">
+                            <img class="max-h-full max-w-full object-scale-down" loading="lazy" decoding="async" src="{{ index $project "thumbnail" }}" alt="{{ index $project "title" }} thumbnail">
                         </div>
                     {{ end }}
                     {{/* Project details container */}}
                     <div class="p-1">
                         {{/* Project title */}}
                         <h3 class="title-font text-sm font-medium text-gray-100 hover:text-primary-400">
-                            <a href="{{ index $project "link" }}" class="block">{{ index $project "title" }}</a>
+                            <a href="{{ index $project "link" }}" class="block" {{ if $openInNewTab }}target="_blank" rel="noopener noreferrer"{{ end }}>{{ index $project "title" }}</a>
                         </h3>
                         {{/* Project description */}}
                         <p class="leading-relaxed text-xs text-gray-300 mt-1">{{ index $project "description" | truncate 40 }}</p>
@@ -45,14 +46,14 @@
                 {{/* Thumbnail container */}}
                 <div class="h-24 overflow-hidden flex items-center justify-center bg-gray-700">
                     {{/* Thumbnail image */}}
-                    <img class="max-h-full max-w-full object-scale-down" src="{{ .Get "thumbnail" }}" alt="{{ .Get "title" }} Thumbnail">
+                    <img class="max-h-full max-w-full object-scale-down" loading="lazy" decoding="async" src="{{ .Get "thumbnail" }}" alt="{{ .Get "title" }} thumbnail">
                 </div>
             {{ end }}
             {{/* Project details container */}}
             <div class="p-1">
                 {{/* Project title */}}
                 <h3 class="title-font text-sm font-medium text-gray-100 hover:text-primary-400">
-                    <a href="{{ .Get "link" }}" class="block">{{ .Get "title" }}</a>
+                    <a href="{{ .Get "link" }}" class="block" {{ if $openInNewTab }}target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Get "title" }}</a>
                 </h3>
                 {{/* Project description */}}
                 <p class="leading-relaxed text-xs text-gray-300 mt-1">{{ .Get "description" | truncate 40 }}</p>

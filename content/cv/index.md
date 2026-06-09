@@ -20,7 +20,7 @@ showAuthor: true
 layoutBackgroundHeaderSpace: false
 ---
 
-[Click here](https://drive.google.com/uc?export=download&id=1CQsCBHwZI_o0pCjoYTGqALPvzuURNNN3) to download the PDF Version
+[Click here](https://drive.google.com/uc?export=download&id=1kRFAp-wjB4jxm6neqKwKLjZIhfy-ZqTu) to download the PDF Version
 
 # Fernando Garcia de la Cruz
 
@@ -34,6 +34,20 @@ layoutBackgroundHeaderSpace: false
 
 ## Work Experience 
 
+**Sony Computer Science Laboratories (CSL)** \
+Research Scientist Intern \
+*May 2026 -- Present* \
+Paris, France
+
+**BMAT Music Innovators** \
+R&D Engineer Intern \
+*January 2026 -- May 2026* \
+Barcelona, Spain
+
+- Research & model development for detecting AI-generated music in real broadcast monitoring scenarios, collaborating between MTG and BMAT
+- Data pipelines & ML workflows: integrating multiple AI music generators, improving automated audio reference pipelines, and training detection models with real-world data
+- Production deployment of AI detection models
+
 **Dolby Laboratories** \
 Software Developer - Entertainment Tech | *Internship* \
 *March 2025 -- August 2025*
@@ -46,7 +60,7 @@ Software Developer - Entertainment Tech | *Internship* \
 
 **Music Technology Group - UPF** \
 Research Assistant - Audio Developer | *Internship* \
-*May 2025 -- Present*
+*May 2025 -- January 2026*
 
 - Integrated Essentia library in audio plugins for real-time processing using the JUCE framework
 - Developed [essentia-plugins](https://github.com/MTG/essentia-plugins) repository

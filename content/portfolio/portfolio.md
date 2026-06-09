@@ -25,8 +25,17 @@ url: /portfolio/
 
 Here are some of my projects. thanks for having a look!
 
-## Music Technology
+## Audio / Music
 {{< project data="data/portfolio/music-technology.json" >}}
+
+{{< github-compact repo="fergarciadlc/gentone" >}}
+{{< github-compact repo="fergarciadlc/FFT-conv-decv" >}}
+{{< github-compact repo="fergarciadlc/audio_dsp_notebooks" >}}
+
+Some open source projects with [Ear Candy Technologies](https://www.earcandytech.com):
+{{< github-compact repo="Ear-Candy-Technologies/Amaranth">}}
+{{< github-compact repo="Ear-Candy-Technologies/intro-audio-plugins-distortion-2023">}}
+{{< github-compact repo="Ear-Candy-Technologies/intro-audio-plugins-expoacustica-2023">}}
 
 
 ## Conferences and Talks
@@ -64,20 +73,5 @@ Open Source Research finished successfully in September 2022 after 2 years of wo
 {{< /timeline-compact >}}
 
 ## Ear Candy Technologies
-At [Ear Candy Technologies](https://www.earcandytech.com) (ECT), a Mexican startup, I'm an audio developer and DSP engineer, focusing on creating new audio plugins and developing audio processing algorithms. Utilizing my data engineering background, I also manage our plugins' cloud infrastructure, sharpening my technical and creative skills.
-
-Checkout our plugins!
-
-Some open source projects with ECT:
-{{< github-compact repo="Ear-Candy-Technologies/Amaranth">}}
-{{< github-compact repo="Ear-Candy-Technologies/intro-audio-plugins-distortion-2023">}}
-{{< github-compact repo="Ear-Candy-Technologies/intro-audio-plugins-expoacustica-2023">}}
-
-## DSP Tools
-<!-- {{< project data="data/portfolio/dsp-tools.json" >}} -->
-{{< github-compact repo="fergarciadlc/gentone" >}}
-{{< github-compact repo="fergarciadlc/FFT-conv-decv" >}}
-{{< github-compact repo="fergarciadlc/audio_dsp_notebooks" >}}
-
 ## Cool Stuff
 {{< project data="data/portfolio/cool-stuff.json" >}}

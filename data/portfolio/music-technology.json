@@ -1,5 +1,23 @@
 [
     {
+        "title": "Live Subtitles",
+        "description": "Real-time microphone subtitles with low-latency speech recognition and multilingual translation",
+        "link": "https://github.com/fergarciadlc/live-subtitles",
+        "thumbnail": "https://opengraph.githubassets.com/1/fergarciadlc/live-subtitles"
+    },
+    {
+        "title": "Audio MNIST Classifier",
+        "description": "End-to-end MLOps pipeline for spoken-digit classification with PyTorch, MLflow, Docker, and Pixi",
+        "link": "https://github.com/fergarciadlc/audio-mnist-classifier",
+        "thumbnail": "https://opengraph.githubassets.com/1/fergarciadlc/audio-mnist-classifier"
+    },
+    {
+        "title": "Essentia Plugins",
+        "description": "Audio plugins with Essentia",
+        "link": "https://github.com/MTG/essentia-plugins",
+        "thumbnail": "https://repository-images.githubusercontent.com/10456942/af3a2b00-9479-11ea-9711-b0071f813778"
+    },
+    {
         "title": "Twizzlay",
         "description": "Ping-pong delay plugin with ECT",
         "link": "https://earcandytech.com/twizzlay",
@@ -36,16 +54,10 @@
         "thumbnail": "https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Green.png"
     },
     {
-        "title": "Essentia Plugins",
-        "description": "Audio plugins with Essentia",
-        "link": "https://github.com/MTG/essentia-plugins",
-        "thumbnail": "https://repository-images.githubusercontent.com/10456942/af3a2b00-9479-11ea-9711-b0071f813778"
-    },
-    {
         "title": "wdf-filters",
         "description": "Analog filters modeling plugin with WDF",
         "link": "https://github.com/fergarciadlc/wdf-filters",
-        "thumbnail": "https://www.analogictips.com/wp-content/uploads/2016/10/Active_Highpass_Filter_RC.png"
+        "thumbnail": "https://opengraph.githubassets.com/1/fergarciadlc/wdf-filters"
     },
     {
         "title": "Mictlan",
@@ -75,6 +87,6 @@
         "title": "PIC-piano",
         "description": "Simple piano project for PIC18F4550",
         "link": "https://github.com/fergarciadlc/PIC-Piano",
-        "thumbnail": "https://camo.githubusercontent.com/5bbde2663d71313831825e137a1fd8f589143ee0cb053d53638a02b50f4cd827/68747470733a2f2f692e6962622e636f2f713530337778582f61736d2e706e67"
+        "thumbnail": "https://opengraph.githubassets.com/1/fergarciadlc/PIC-Piano"
     }
 ]

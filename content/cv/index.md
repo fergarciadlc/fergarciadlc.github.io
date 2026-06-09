@@ -115,6 +115,12 @@ Developed [essentia-plugins](https://github.com/MTG/essentia-plugins), a set of 
 **The Sound of AI Community Projects** | *July 2022 -- July 2023* \
 Multiple roles in The Sound of AI community initiatives including: Assistant Director for the first [Accelerator program](https://thesoundofai.com/accelerator.html) (startup program in music-audio-AI), organizer and participant in the [1st Hackathon](https://musikalkemist.github.io/thesoundofaihackathon/) where I developed [Modelizer](https://github.com/rodoortiz/Modelizer) (real-time audio processing VST), and contributor to the [Open Source Research](https://thesoundofaiosr.github.io/) project with 200+ community members, co-authoring the published neural synthesis research.
 
+**Live Subtitles** | *2026* \
+Local-first Gradio app for real-time browser microphone captioning: speech transcription with faster-whisper, VAD-based phrase segmentation, and multilingual translation (EN/FR/ES) via CTranslate2 Opus-MT models. Deployed on [Hugging Face Spaces](https://huggingface.co/spaces/fergarciadlc/live-subtitles).
+
+**Audio MNIST Classifier** | *2026* \
+End-to-end MLOps pipeline for 10-class spoken-digit classification on AudioMNIST (30,000 WAVs, 60 speakers). Spectrogram CNN in PyTorch with MLflow tracking, Docker, and Pixi (CPU/GPU). Live demo on [Hugging Face Spaces](https://huggingface.co/spaces/fergarciadlc/audio-mnist-demo).
+
 **Selected Open Source Projects (Music Technology)**: 
 [Orbit](https://github.com/fergarciadlc/orbit/), 
 [Harmonic Playlist](https://github.com/fergarciadlc/harmonic-playlist/), 

@@ -28,7 +28,9 @@ layoutBackgroundHeaderSpace: false
 
 [🌐 fergarciadlc.github.io](https://fergarciadlc.github.io/) | 
 [🐙 GitHub](https://github.com/fergarciadlc) | 
-[💼 LinkedIn](https://www.linkedin.com/in/fergarciadlc/)
+[💼 LinkedIn](https://www.linkedin.com/in/fergarciadlc/) | 
+[🎓 Google Scholar](https://scholar.google.es/citations?user=axhXERgAAAAJ&hl=en) | 
+[🆔 ORCID](https://orcid.org/0009-0003-9209-8171)
 
 ---
 
@@ -36,8 +38,10 @@ layoutBackgroundHeaderSpace: false
 
 **Sony Computer Science Laboratories (CSL)** \
 Research Scientist Intern \
-*May 2026 -- Present* \
+*May 2026 -- August 2026* \
 Paris, France
+
+- Machine learning and signal processing research for music and audio applications
 
 **BMAT Music Innovators** \
 R&D Engineer Intern \
@@ -97,6 +101,20 @@ Mexico City, Mexico
 
 ## Publications
 
+Full list with abstracts: [fergarciadlc.github.io/publications](https://fergarciadlc.github.io/publications/) | [Google Scholar](https://scholar.google.es/citations?user=axhXERgAAAAJ&hl=en) | [ORCID](https://orcid.org/0009-0003-9209-8171)
+
+**How Much AI Is in This Track? Quantifying the Proportion of AI-Generated Stems in Hybrid Music Mixtures** \
+*2026* \
+F. Garcia de la Cruz (1st author), D. López-Ayala, P. Zinemanas, E. Molina, M. Rocamora \
+Accepted at the International Society for Music Information Retrieval Conference (ISMIR 2026) \
+[arXiv:2608.07285](https://arxiv.org/abs/2608.07285)
+
+**Assessing AI-Generated Music Detection in Real-World Broadcast Monitoring** \
+*2026* \
+D. López-Ayala, F. García de la Cruz (2nd author), P. Zinemanas, E. Molina, M. Rocamora \
+Accepted at the International Society for Music Information Retrieval Conference (ISMIR 2026) \
+[arXiv:2608.07359](https://arxiv.org/abs/2608.07359)
+
 **From Words to Sound: Neural Audio Synthesis of Guitar Sounds with Timbral Descriptors** \
 *September 2022* \
 The Sound of AI Community (3rd author) \
@@ -132,6 +150,10 @@ End-to-end MLOps pipeline for 10-class spoken-digit classification on AudioMNIST
 ---
 
 ## Conferences and Talks
+
+**🎤 Speaker: Audio Developers Meetup** | *2026* \
+Talk: "How Much AI Is in This Track? Detecting AI-Generated Content in Hybrid Music Mixtures", on my MSc thesis work reframing AI-music detection as regression over a continuous AI energy ratio. \
+Recording forthcoming.
 
 **🎤 Speaker: Audio Developer Conference 2024** | *November, Bristol, UK* \
 Talk: ["Rock-Solid Releases"](https://conference.audio.dev/session/2024/rock-solid-releases-ci-cd-for-audio-developers/) about CI/CD for Audio Plugins \
@@ -171,14 +193,13 @@ Guitar Teacher and Audio Engineer
 |--------------|---------------------------|
 | **Audio/DSP Development** | JUCE (C++), Essentia, Pure Data, Matlab |
 | **Programming Languages** | Python, C/C++, Go, CMajor, Matlab |
-| **Machine Learning** | scikit-learn, TensorFlow, Keras, Librosa |
+| **Machine Learning** | PyTorch, TensorFlow, Keras, scikit-learn, Librosa, torchaudio |
 | **Data Engineering** | Apache Beam, Airflow, Kafka, Spark (PySpark) |
 | **Data Analysis** | NumPy, Pandas, SciPy, OpenCV |
 | **Data Visualization** | Matplotlib, Seaborn, Plotly, Cufflinks |
 | **Cloud & DevOps** | GCP, Docker, Travis CI, Jenkins, Kubernetes |
 | **Databases** | SQL (Postgres, MySQL, BigQuery), NoSQL (MongoDB) |
 | **Web & API** | HTML, CSS, JavaScript, Flask, Django, FastAPI |
-| **AI Tools** | ChatGPT, DALL-E, Midjourney, Stable Diffusion |
 
 ---
 

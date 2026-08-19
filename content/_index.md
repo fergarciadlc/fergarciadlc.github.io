@@ -3,10 +3,12 @@ title: "Fernando Garcia"
 description: "Homepage"
 ---
 
-**Engineer, musician, and audio‑AI enthusiast**
+**Hi, I'm Fernando** 👋
 
-MSc student in **Sound & Music Computing** at UPF’s Music Technology Group, working on audio plug‑ins, DSP, and machine learning for sound.
+I'm a **Research Engineer** working on signal processing and machine learning for **audio and music**.
 
-🤖 Audio/ML/Data Engineer
+Previously at **Sony CSL Paris**, **Dolby**, **BMAT** and the **MTG**. 
 
-📂 [Portfolio](/portfolio/) | 📄 [CV](/cv/) | 🎥 [Watch my ADC Talk](https://www.youtube.com/watch?v=eKvPupqq9YE)
+MSc in Sound & Music Computing from UPF's Music Technology Group.
+
+📂 [Portfolio](/portfolio/) · 📚 [Publications](/publications/) · 📄 [CV](/cv/) · 🎥 [Watch my ADC Talk](https://www.youtube.com/watch?v=eKvPupqq9YE)

@@ -1,0 +1,123 @@
+{{/* Publication card: venue badge + title/authors/venue + link pills + collapsible abstract.
+     Inner content (optional) is the abstract, rendered as markdown.
+
+     Self-contained CSS: Blowfish ships a PURGED, precompiled Tailwind bundle, so many
+     utilities (mb-4, gap-3, items-start, dark:text-neutral-400, ...) are absent and would
+     silently no-op. We therefore style with scoped CSS keyed off `html.dark`
+     (tailwind.config.js sets darkMode: "class"), using the theme's own
+     --color-{primary,neutral}-* RGB triplets so cards track the site colour scheme. */}}
+
+{{- if not (.Page.Scratch.Get "publicationCSS") -}}
+{{- .Page.Scratch.Set "publicationCSS" true -}}
+<style>
+.pub-card{display:flex;flex-direction:row;align-items:stretch;gap:0;
+  border:1px solid rgb(var(--color-neutral-200));border-radius:.5rem;
+  background:rgb(var(--color-neutral-50));overflow:hidden;
+  margin:0 0 .875rem 0;transition:border-color .2s,box-shadow .2s}
+.pub-card:hover{border-color:rgb(var(--color-primary-300));
+  box-shadow:0 1px 3px rgba(var(--color-neutral-900),.07)}
+html.dark .pub-card{border-color:rgb(var(--color-neutral-700));
+  background:rgba(var(--color-neutral-800),.35)}
+html.dark .pub-card:hover{border-color:rgb(var(--color-primary-700))}
+
+.pub-badge{flex:0 0 5.25rem;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;text-align:center;padding:.75rem .5rem;
+  background:rgb(var(--color-primary-100));color:rgb(var(--color-primary-700));
+  border-right:1px solid rgb(var(--color-neutral-200))}
+html.dark .pub-badge{background:rgba(var(--color-primary-900),.35);
+  color:rgb(var(--color-primary-300));border-right-color:rgb(var(--color-neutral-700))}
+.pub-venue-tag{font-size:.8125rem;font-weight:700;line-height:1.15;
+  letter-spacing:.02em;text-transform:uppercase}
+.pub-year{font-size:.6875rem;opacity:.75;margin-top:.125rem;
+  font-variant-numeric:tabular-nums}
+
+.pub-body{flex:1 1 auto;min-width:0;padding:.75rem .875rem}
+.pub-title{font-size:.9375rem;font-weight:600;line-height:1.35;
+  color:rgb(var(--color-neutral-800))}
+html.dark .pub-title{color:rgb(var(--color-neutral-100))}
+.pub-authors{font-size:.8125rem;line-height:1.45;margin-top:.25rem;
+  color:rgb(var(--color-neutral-600))}
+html.dark .pub-authors{color:rgb(var(--color-neutral-300))}
+.pub-authors strong{font-weight:700;color:rgb(var(--color-neutral-800))}
+html.dark .pub-authors strong{color:rgb(var(--color-neutral-100))}
+.pub-published{font-size:.75rem;font-style:italic;margin-top:.125rem;
+  color:rgb(var(--color-neutral-500))}
+html.dark .pub-published{color:rgb(var(--color-neutral-400))}
+
+.pub-links{display:flex;flex-wrap:wrap;align-items:center;gap:.375rem;margin-top:.5rem}
+.pub-link,.pub-card summary{display:inline-flex;align-items:center;
+  font-size:.6875rem;font-weight:600;letter-spacing:.02em;text-transform:uppercase;
+  padding:.1875rem .5rem;border-radius:.25rem;text-decoration:none;
+  border:1px solid rgb(var(--color-neutral-300));color:rgb(var(--color-neutral-600));
+  background:transparent;transition:background-color .15s,color .15s,border-color .15s}
+html.dark .pub-link,html.dark .pub-card summary{border-color:rgb(var(--color-neutral-600));
+  color:rgb(var(--color-neutral-300))}
+.pub-link:hover,.pub-card summary:hover{background:rgb(var(--color-primary-500));
+  border-color:rgb(var(--color-primary-500));color:#fff}
+
+/* details claims the full row so it wraps onto its own line: the summary stays a
+   left-aligned pill and the expanded abstract gets full width, without relying on
+   display:contents (which breaks the disclosure toggle in some browsers). */
+.pub-card details{margin:0;flex:1 1 100%}
+.pub-card summary{cursor:pointer;list-style:none;user-select:none;width:fit-content}
+.pub-card summary::-webkit-details-marker{display:none}
+.pub-card summary::after{content:"+";margin-left:.3125rem;font-weight:400}
+.pub-card details[open] summary::after{content:"\2212"}
+.pub-abstract{font-size:.8125rem;line-height:1.55;margin-top:.5rem;
+  padding-top:.5rem;border-top:1px solid rgb(var(--color-neutral-200));
+  color:rgb(var(--color-neutral-600))}
+html.dark .pub-abstract{color:rgb(var(--color-neutral-300));
+  border-top-color:rgb(var(--color-neutral-700))}
+.pub-abstract p{margin:0}
+.pub-abstract p+p{margin-top:.5rem}
+.pub-abstract a{color:rgb(var(--color-primary-600));text-decoration:underline}
+html.dark .pub-abstract a{color:rgb(var(--color-primary-400))}
+
+/* Stack the badge above the body on narrow screens */
+@media (max-width:480px){
+  .pub-card{flex-direction:column}
+  .pub-badge{flex:0 0 auto;flex-direction:row;gap:.375rem;padding:.375rem .875rem;
+    justify-content:flex-start;border-right:none;
+    border-bottom:1px solid rgb(var(--color-neutral-200))}
+  html.dark .pub-badge{border-bottom-color:rgb(var(--color-neutral-700))}
+  .pub-year::before{content:"\00b7";margin-right:.375rem}
+}
+</style>
+{{- end -}}
+
+{{- $links := slice
+  (dict "label" "arXiv"  "url" (.Get "arxiv"))
+  (dict "label" "PDF"    "url" (.Get "pdf"))
+  (dict "label" "DOI"    "url" (.Get "doi"))
+  (dict "label" "Code"   "url" (.Get "code"))
+  (dict "label" "Demo"   "url" (.Get "demo"))
+  (dict "label" "Talk"   "url" (.Get "talk"))
+  (dict "label" "Video"  "url" (.Get "video"))
+-}}
+
+<div class="pub-card">
+  <div class="pub-badge">
+    <span class="pub-venue-tag">{{ .Get "venue" }}</span>
+    {{- with .Get "year" }}<span class="pub-year">{{ . }}</span>{{ end -}}
+  </div>
+  <div class="pub-body">
+    <div class="pub-title">{{ .Get "title" }}</div>
+    {{- with .Get "authors" }}<div class="pub-authors">{{ . | markdownify }}</div>{{ end -}}
+    {{- with .Get "published" }}<div class="pub-published">{{ . | markdownify }}</div>{{ end -}}
+    <div class="pub-links">
+      {{- range $links -}}
+        {{- $url := .url -}}
+        {{- $label := .label -}}
+        {{- with $url -}}
+          <a class="pub-link" href="{{ . | safeURL }}"{{ if strings.HasPrefix . "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ $label }}</a>
+        {{- end -}}
+      {{- end -}}
+      {{- with trim .Inner " \n\r\t" -}}
+        <details>
+          <summary>Abstract</summary>
+          <div class="pub-abstract">{{ . | markdownify }}</div>
+        </details>
+      {{- end -}}
+    </div>
+  </div>
+</div>

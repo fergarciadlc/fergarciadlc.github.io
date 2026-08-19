@@ -23,7 +23,9 @@ url: /portfolio/
 
 ---
 
-Here are some of my projects. thanks for having a look!
+Here are some of my projects. Thanks for having a look!
+
+Looking for research output instead? See my [publications](/publications/).
 
 ## Audio / Music
 {{< project data="data/portfolio/music-technology.json" >}}
@@ -72,6 +74,5 @@ Open Source Research finished successfully in September 2022 after 2 years of wo
 
 {{< /timeline-compact >}}
 
-## Ear Candy Technologies
 ## Cool Stuff
 {{< project data="data/portfolio/cool-stuff.json" >}}

@@ -41,6 +41,11 @@
   url = "/portfolio/"
   weight = 20
 
+[[main]]
+  name = "publications"
+  pageRef = "publications"
+  weight = 25
+
 #[[main]]
 #  name = "Blog"
 #  pageRef = "posts"

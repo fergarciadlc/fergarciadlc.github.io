@@ -1,8 +1,8 @@
 ---
-title: "Audio Developers Meetup 2026"
-date: 2026-08-19
+title: "Audio Developer Meetup Berlin 2026"
+date: 2026-08-04
 draft: false
-showDate: false
+showDate: true
 showDateUpdated: false
 showHeadingAnchors: false
 showPagination: false
@@ -19,14 +19,13 @@ showAuthor: true
 layoutBackgroundHeaderSpace: false
 ---
 
-<!-- TODO: confirm the exact meetup name and date, then set `date:` above,
-     flip `showDate: true`, and fill in the venue line below. -->
-
 ## How Much AI Is in This Track? Detecting AI-Generated Content in Hybrid Music Mixtures
 
-**Speaker at the Audio Developers Meetup.** A talk on my MSc thesis work.
+**Speaker at [Audio Developer Meetup Berlin](https://www.meetup.com/audio-developer-meetup-berlin/)** | August 2026 | Ableton AG, Berlin
 
-> 🎥 **Recording coming soon.** The video isn't published yet. Check back here, or find it on the [Audio Developer Conference YouTube channel](https://www.youtube.com/@audiodevcon).
+Presented at [August Meetup: Interactive Audio](https://www.meetup.com/audio-developer-meetup-berlin/events/315757617/), on a shared bill with Robyn Pacetti (Protagonists!). A talk on my MSc thesis work.
+
+> 🎥 **Recording coming soon.** The video isn't published yet, so check back here.
 
 <!-- When the recording is live, replace the note above with:
 {{< youtube VIDEO_ID >}}
@@ -54,4 +53,6 @@ The broader takeaway: **near-perfect binary accuracy is not evidence that a dete
 ### Links
 
 - [📄 Paper: *How Much AI Is in This Track?* (ISMIR 2026)](https://arxiv.org/abs/2608.07285)
+- [📅 Event page: August Meetup: Interactive Audio](https://www.meetup.com/audio-developer-meetup-berlin/events/315757617/)
+- [👥 Audio Developer Meetup Berlin](https://www.meetup.com/audio-developer-meetup-berlin/)
 - [📚 All publications](/publications/)

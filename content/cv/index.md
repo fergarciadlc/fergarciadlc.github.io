@@ -151,7 +151,7 @@ End-to-end MLOps pipeline for 10-class spoken-digit classification on AudioMNIST
 
 ## Conferences and Talks
 
-**🎤 Speaker: Audio Developers Meetup** | *2026* \
+**🎤 Speaker: Audio Developer Meetup Berlin** | *August 2026, Ableton AG, Berlin* \
 Talk: "How Much AI Is in This Track? Detecting AI-Generated Content in Hybrid Music Mixtures", on my MSc thesis work reframing AI-music detection as regression over a continuous AI energy ratio. \
 Recording forthcoming.
 

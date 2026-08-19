@@ -36,8 +36,8 @@ Looking for research output instead? See my [publications](/publications/).
 
 Some open source projects with [Ear Candy Technologies](https://www.earcandytech.com):
 {{< github-compact repo="Ear-Candy-Technologies/Amaranth">}}
-{{< github-compact repo="Ear-Candy-Technologies/intro-audio-plugins-distortion-2023">}}
-{{< github-compact repo="Ear-Candy-Technologies/intro-audio-plugins-expoacustica-2023">}}
+{{< github-compact repo="Ear-Candy-Technologies/intro-audio-plugins-distortion">}}
+{{< github-compact repo="Ear-Candy-Technologies/intro-audio-plugins-reverb">}}
 
 
 ## Conferences and Talks
